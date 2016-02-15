@@ -1,14 +1,26 @@
 layout_spectrum: 0.3170213
+name: Xperiment
 typography_spectrum: 0.2251774
 color:
-  lightness: 0.3468085
   brandStrength: 1
   saturation: 0.5914894
-  rhythmicContrast: 0.5680851
   brandColors:
     - '#0D0B0E'
     - '#EAE0DF'
     - '#676D6D'
     - '#D81F88'
     - '#0D42A3'
-name: Xperiment
+  lightness: 0.3468085
+  rhythmicContrast: 0.5680851
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
